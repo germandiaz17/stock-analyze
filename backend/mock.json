@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "ticker": "BSBR",
+      "objetivo_desde": "$4.20",
+      "objetivo_hasta": "$4.70",
+      "empresa": "Banco Santander (Brasil)",
+      "acción": "mejorado por",
+      "corredor": "The Goldman Sachs Group",
+      "calificación_desde": "Vender",
+      "calificación_hasta": "Neutral",
+      "tiempo": "2025-01-13T00:30:05Z"
+    }
+  ],
+  "página_siguiente": ""
+}
