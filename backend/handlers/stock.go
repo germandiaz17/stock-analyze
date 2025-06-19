@@ -6,7 +6,9 @@ import (
 	"net/http"
 	"os"
 
+
 	"stock-analyzer/models"
+	"stock-analyzer/logic"
 
 	"github.com/gin-gonic/gin"
 	"github.com/jackc/pgx/v5"
@@ -33,8 +35,36 @@ func GetStocks(c *gin.Context) {
 	c.JSON(http.StatusOK, stocks)
 }
 
+func GetRecommendation(c *gin.Context) {
+	rows, err := DBConnection().Query(context.Background(), "SELECT ticker, objetivo_desde, objetivo_hasta, empresa, accion, corredor, calificacion_desde, calificacion_hasta, tiempo FROM stocks")
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "Error al consultar la base de datos"})
+		return
+	}
+	defer rows.Close()
+
+	var stocks []models.Stock
+	for rows.Next() {
+		var s models.Stock
+		err := rows.Scan(&s.Ticker, &s.ObjetivoDesde, &s.ObjetivoHasta, &s.Empresa, &s.Accion, &s.Corredor, &s.CalificacionDesde, &s.CalificacionHasta, &s.Tiempo)
+		if err == nil {
+			stocks = append(stocks, s)
+		}
+	}
+
+	best := logic.RecommendBestStock(stocks)
+	if best == nil {
+		c.JSON(http.StatusNotFound, gin.H{"message": "No se encontró una acción recomendable"})
+		return
+	}
+
+	c.JSON(http.StatusOK, best)
+}
+
+
+
 func LoadMock(c *gin.Context) {
-	file, err := os.Open("mock.json")
+	file, err := os.Open(path + "mock.json")
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "No se pudo abrir el archivo mock"})
 		return

@@ -25,8 +25,14 @@ func main() {
 
 	handlers.DBConnection = func() *pgx.Conn { return DB }
 
+	//GET
 	r.GET("/stocks", handlers.GetStocks)
+	r.GET("/stocks/recommend", handlers.GetRecommendation)
+	
+	//POST
 	r.POST("/stocks/load", handlers.LoadMock)
+
+
 
 	r.Run(":3000")
 }
