@@ -64,7 +64,7 @@ func GetRecommendation(c *gin.Context) {
 
 
 func LoadMock(c *gin.Context) {
-	file, err := os.Open(path + "mock.json")
+	file, err := os.Open("mock.json")
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "No se pudo abrir el archivo mock"})
 		return

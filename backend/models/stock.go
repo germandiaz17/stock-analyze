@@ -9,7 +9,7 @@ type Stock struct {
 	Empresa           string    `json:"empresa"`
 	Accion            string    `json:"acción"`
 	Corredor          string    `json:"corredor"`
-	CalificacionDesde string    `json:"calificación_desde"`
-	CalificacionHasta string    `json:"calificación_hasta"`
+	CalificacionDesde string    `json:"calificacion_desde"`
+	CalificacionHasta string    `json:"calificacion_hasta"`
 	Tiempo            time.Time `json:"tiempo"`
 }

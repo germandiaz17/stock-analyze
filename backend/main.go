@@ -9,6 +9,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 	"github.com/jackc/pgx/v5"
+
+	"github.com/gin-contrib/cors"
+	// "github.com/gin-gonic/gin"
 )
 
 func main() {
@@ -22,6 +25,14 @@ func main() {
 
 	// Configurar rutas
 	r := gin.Default()
+
+	// Configuración CORS
+	r.Use(cors.New(cors.Config{
+	    AllowOrigins:     []string{"http://localhost:5173"},
+	    AllowMethods:     []string{"GET", "POST", "OPTIONS"},
+	    AllowHeaders:     []string{"Origin", "Content-Type"},
+	    AllowCredentials: true,
+	}))
 
 	handlers.DBConnection = func() *pgx.Conn { return DB }
 
