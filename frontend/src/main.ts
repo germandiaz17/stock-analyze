@@ -7,8 +7,8 @@ import { router } from './router'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faChartLine, faBuilding, faTag, faBullseye, faStarHalfStroke, faCalendar, faCircleCheck , faCircleDot, faChartColumn, faHeart, faUpLong, faDownLong, faPause} from '@fortawesome/free-solid-svg-icons'
-library.add(faChartLine, faBuilding, faTag, faBullseye, faStarHalfStroke, faCalendar, faCircleCheck, faCircleDot, faChartColumn, faHeart, faUpLong, faDownLong, faPause)
+import { faChartLine, faBuilding, faTag, faBullseye, faStarHalfStroke, faCalendar, faCircleCheck , faCircleDot, faChartColumn, faHeart, faUpLong, faDownLong, faPause, faArrowLeft, faArrowRight, faBackward, faForward} from '@fortawesome/free-solid-svg-icons'
+library.add(faChartLine, faBuilding, faTag, faBullseye, faStarHalfStroke, faCalendar, faCircleCheck, faCircleDot, faChartColumn, faHeart, faUpLong, faDownLong, faPause, faArrowLeft, faArrowRight, faBackward, faForward)
 
 
 const app = createApp(App)

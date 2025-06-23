@@ -13,26 +13,25 @@
         class="bg-white p-6 rounded-lg shadow-lg border border-gray-200 space-y-4 transition hover:shadow-xl"
       >
         <p class="text-lg">
-          <strong class="text-gray-700"><font-awesome-icon icon="fa-building" /> Empresa:</strong>
+          <strong class="text-gray-700"><font-awesome-icon icon="fa-building" /> Empresa: </strong>
           <span class="text-gray-900">{{ stock?.empresa }}</span>
         </p>
 
         <p class="text-lg">
-          <strong class="text-gray-700"><font-awesome-icon icon="fa-circle-check" /> Ticker:</strong>
+          <strong class="text-gray-700"><font-awesome-icon icon="fa-circle-check" /> Ticker: </strong>
           <span class="text-gray-900">{{ stock?.ticker }}</span>
         </p>
 
         <p class="text-lg">
-          <strong class="text-gray-700"><font-awesome-icon icon="fa-circle-dot" /> Objetivo:</strong>
+          <strong class="text-gray-700"><font-awesome-icon icon="fa-circle-dot" /> Objetivo: </strong>
           <span :class="objetivoClass(stock)">
             {{ stock?.objetivo_desde }} → {{ stock?.objetivo_hasta }}
           </span>
         </p>
 
         <p class="text-lg">
-          <strong class="text-gray-700"><font-awesome-icon icon="fa-chart-column" /> Calificación:</strong>
-          <span class="text-blue-700">
-            {{ stock?.calificacion_desde }} → {{ stock?.calificacion_hasta }}
+          <strong class="text-gray-700"><font-awesome-icon icon="fa-chart-column" /> Calificación: </strong>
+          <span class="text-blue-700"> {{ stock?.calificacion_desde }} → {{ stock?.calificacion_hasta }}
           </span>
         </p>
 
