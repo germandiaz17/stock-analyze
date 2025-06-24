@@ -17,7 +17,7 @@
         </div>
       </div>
 
-      <!-- Filtros de búsqueda -->
+      <!-- Filtros de busqueda -->
       <div class="mb-6 bg-white p-4 rounded-lg shadow-sm">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
           <!-- Filtro por ticker -->
@@ -80,7 +80,7 @@
               <th class="px-6 py-3">Ticker</th>
               <th class="px-6 py-3">Empresa</th>
               <th class="px-6 py-3">Objetivo</th>
-              <th class="px-6 py-3">Calificación</th>
+              <th class="px-6 py-3">Calificacion</th>
               <th class="px-6 py-3">Tendencia</th>
               <th class="px-6 py-3">Fecha</th>
             </tr>
@@ -135,7 +135,7 @@
           No se encontraron acciones que coincidan con los filtros
         </div>
         
-        <!-- Paginación -->
+        <!-- Paginacion -->
         <div v-if="filteredStocks.length > itemsPerPage" class="flex items-center justify-between px-4 py-3 bg-white border-t border-gray-200 sm:px-6">
           <div class="flex-1 flex justify-between sm:hidden">
             <button
@@ -180,7 +180,7 @@
                   <font-awesome-icon icon="fa-arrow-left" />
                 </button>
                 
-                <!-- Números de página -->
+                <!-- Numeros de página -->
                 <template v-for="page in visiblePages" :key="page">
                   <button
                     @click="goToPage(page)"
@@ -207,7 +207,7 @@
                   :disabled="currentPage === totalPages"
                   class="relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
                 >
-                  <span class="sr-only">Última</span>
+                  <span class="sr-only">ultima</span>
                   <font-awesome-icon icon="fa-forward" />
                 </button>
               </nav>
@@ -269,7 +269,7 @@ const filteredStocks = computed(() => {
   })
 })
 
-// Función para inicializar los gráficos
+// Funcion para inicializar los gráficos
 const initCharts = () => {
   // Destruir instancias anteriores si existen
   if (tendenciaChartInstance) tendenciaChartInstance.destroy()
@@ -284,7 +284,7 @@ const initCharts = () => {
 
   // Datos para el gráfico de empresas recomendadas (top 5)
   const empresasData = filteredStocks.value
-    .filter(stock => stock.calificacion_hasta === 'Comprar') // Solo acciones con recomendación COMPRA
+    .filter(stock => stock.calificacion_hasta === 'Comprar') // Solo acciones con recomendacion COMPRA
     .reduce((acc, stock) => {
       acc[stock.empresa] = (acc[stock.empresa] || 0) + 1
       return acc
