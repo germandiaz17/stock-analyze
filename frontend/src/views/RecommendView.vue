@@ -1,7 +1,7 @@
 <template>
   <div class="p-6 min-h-screen bg-gray-100">
     <div class="max-w-xl mx-auto">
-      <h2 class="text-3xl font-bold mb-6 text-blue-700 flex items-center gap-2">
+      <h2 class="text-3xl font-bold mb-6 text-gray-700 flex items-center gap-2">
         Recomendación de inversión
       </h2>
 
