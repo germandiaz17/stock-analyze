@@ -17,7 +17,7 @@ import (
 func main() {
 	// Cargar .env
 	if err := godotenv.Load(); err != nil {
-		log.Fatal("❌ Error cargando .env:", err)
+		log.Fatal("Error cargando .env:", err)
 	}
 
 	InitDB() // ← Conecta a CockroachDB
@@ -28,7 +28,7 @@ func main() {
 
 	// Configuración CORS
 	r.Use(cors.New(cors.Config{
-	    AllowOrigins:     []string{"http://localhost:5173"},
+	    AllowOrigins:     []string{"http://localhost:5173", "http://localhost:8080"},
 	    AllowMethods:     []string{"GET", "POST", "OPTIONS"},
 	    AllowHeaders:     []string{"Origin", "Content-Type"},
 	    AllowCredentials: true,

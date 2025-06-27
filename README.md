@@ -15,7 +15,6 @@ Una plataforma full-stack para analizar acciones de la bolsa y recibir recomenda
 - Listado detallado de acciones.
 - Filtro de búsqueda por empresa o ticker.
 - Paginación del listado.
-- Exportación a **CSV**.
 - Visualización de **tendencias** con íconos.
 
 ### Recomendaciones de inversión
@@ -27,5 +26,19 @@ Una plataforma full-stack para analizar acciones de la bolsa y recibir recomenda
 
 ## Ejecutar con Docker
 
+## DESPUES DE QUE LA BASE DE DATOS SE SUBA EJECUTAR ESTE SCRIPT
+CREATE TABLE IF NOT EXISTS stocks (
+  ticker STRING PRIMARY KEY,
+  objetivo_desde STRING,
+  objetivo_hasta STRING,
+  empresa STRING,
+  accion STRING,
+  corredor STRING,
+  calificacion_desde STRING,
+  calificacion_hasta STRING,
+  tiempo TIMESTAMP
+);
+
 ```bash
 docker-compose up --build
+

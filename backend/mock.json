@@ -7,10 +7,21 @@
       "empresa": "Meta Platforms",
       "acción": "iniciado por",
       "corredor": "Goldman Sachs",
-      "calificación_desde": "Neutral",
-      "calificación_hasta": "Comprar",
+      "calificacion_desde": "Neutral",
+      "calificacion_hasta": "Comprar",
       "tiempo": "2025-01-01T00:00:00Z"
     },
+      {
+    "ticker": "AUT062",
+    "objetivo_desde": "$185.30",
+    "objetivo_hasta": "$200.50",
+    "empresa": "AutoFuture Tech",
+    "acción": "iniciado por",
+    "corredor": "Morgan Stanley",
+    "calificacion_desde": "Neutral",
+    "calificacion_hasta": "Comprar",
+    "tiempo": "2025-03-02T00:00:00Z"
+  },
     {
       "ticker": "STK002",
       "objetivo_desde": "$53,23",
@@ -18,8 +29,8 @@
       "empresa": "Amazon",
       "acción": "degradado por",
       "corredor": "Morgan Stanley",
-      "calificación_desde": "Superar",
-      "calificación_hasta": "Neutral",
+      "calificacion_desde": "Superar",
+      "calificacion_hasta": "Neutral",
       "tiempo": "2025-01-02T00:00:00Z"
     },
     {
@@ -29,8 +40,8 @@
       "empresa": "Meta Platforms",
       "acción": "iniciado por",
       "corredor": "Wedbush",
-      "calificación_desde": "Vender",
-      "calificación_hasta": "Vender",
+      "calificacion_desde": "Vender",
+      "calificacion_hasta": "Vender",
       "tiempo": "2025-01-03T00:00:00Z"
     },
     {
@@ -40,8 +51,8 @@
       "empresa": "Amazon",
       "acción": "iniciado por",
       "corredor": "Wedbush",
-      "calificación_desde": "Comprar",
-      "calificación_hasta": "Comprar",
+      "calificacion_desde": "Comprar",
+      "calificacion_hasta": "Comprar",
       "tiempo": "2025-01-04T00:00:00Z"
     },
     {
@@ -51,8 +62,8 @@
       "empresa": "Amazon",
       "acción": "mejorado por",
       "corredor": "Morgan Stanley",
-      "calificación_desde": "Vender",
-      "calificación_hasta": "Comprar",
+      "calificacion_desde": "Vender",
+      "calificacion_hasta": "Comprar",
       "tiempo": "2025-01-05T00:00:00Z"
     },
     {
@@ -62,8 +73,8 @@
       "empresa": "Shopify",
       "acción": "reiterado por",
       "corredor": "Wedbush",
-      "calificación_desde": "Superar",
-      "calificación_hasta": "Vender",
+      "calificacion_desde": "Superar",
+      "calificacion_hasta": "Vender",
       "tiempo": "2025-01-06T00:00:00Z"
     },
     {
@@ -73,8 +84,8 @@
       "empresa": "Tesla",
       "acción": "mejorado por",
       "corredor": "Barclays",
-      "calificación_desde": "Superar",
-      "calificación_hasta": "Superar",
+      "calificacion_desde": "Superar",
+      "calificacion_hasta": "Superar",
       "tiempo": "2025-01-07T00:00:00Z"
     },
     {
@@ -84,8 +95,8 @@
       "empresa": "Adobe",
       "acción": "reiterado por",
       "corredor": "JP Morgan",
-      "calificación_desde": "Comprar",
-      "calificación_hasta": "Vender",
+      "calificacion_desde": "Comprar",
+      "calificacion_hasta": "Vender",
       "tiempo": "2025-01-08T00:00:00Z"
     },
     {
@@ -95,8 +106,8 @@
       "empresa": "IBM",
       "acción": "mejorado por",
       "corredor": "Morgan Stanley",
-      "calificación_desde": "Vender",
-      "calificación_hasta": "Vender",
+      "calificacion_desde": "Vender",
+      "calificacion_hasta": "Vender",
       "tiempo": "2025-01-09T00:00:00Z"
     },
     {
@@ -106,8 +117,8 @@
       "empresa": "Amazon",
       "acción": "degradado por",
       "corredor": "Morgan Stanley",
-      "calificación_desde": "Vender",
-      "calificación_hasta": "Neutral",
+      "calificacion_desde": "Vender",
+      "calificacion_hasta": "Neutral",
       "tiempo": "2025-01-10T00:00:00Z"
     },
     {
@@ -117,8 +128,8 @@
       "empresa": "Tesla",
       "acción": "mejorado por",
       "corredor": "Morgan Stanley",
-      "calificación_desde": "Neutral",
-      "calificación_hasta": "Superar",
+      "calificacion_desde": "Neutral",
+      "calificacion_hasta": "Superar",
       "tiempo": "2025-01-11T00:00:00Z"
     },
     {
@@ -128,8 +139,8 @@
       "empresa": "Tesla",
       "acción": "mejorado por",
       "corredor": "Wedbush",
-      "calificación_desde": "Comprar",
-      "calificación_hasta": "Comprar",
+      "calificacion_desde": "Comprar",
+      "calificacion_hasta": "Comprar",
       "tiempo": "2025-01-12T00:00:00Z"
     },
     {
@@ -139,8 +150,8 @@
       "empresa": "PayPal",
       "acción": "reiterado por",
       "corredor": "Goldman Sachs",
-      "calificación_desde": "Superar",
-      "calificación_hasta": "Vender",
+      "calificacion_desde": "Superar",
+      "calificacion_hasta": "Vender",
       "tiempo": "2025-01-13T00:00:00Z"
     },
     {
@@ -150,8 +161,8 @@
       "empresa": "Adobe",
       "acción": "iniciado por",
       "corredor": "Goldman Sachs",
-      "calificación_desde": "Vender",
-      "calificación_hasta": "Comprar",
+      "calificacion_desde": "Vender",
+      "calificacion_hasta": "Comprar",
       "tiempo": "2025-01-14T00:00:00Z"
     },
     {
@@ -161,8 +172,8 @@
       "empresa": "Spotify",
       "acción": "reiterado por",
       "corredor": "JP Morgan",
-      "calificación_desde": "Neutral",
-      "calificación_hasta": "Superar",
+      "calificacion_desde": "Neutral",
+      "calificacion_hasta": "Superar",
       "tiempo": "2025-01-15T00:00:00Z"
     },
     {
@@ -172,8 +183,8 @@
       "empresa": "IBM",
       "acción": "reiterado por",
       "corredor": "JP Morgan",
-      "calificación_desde": "Vender",
-      "calificación_hasta": "Vender",
+      "calificacion_desde": "Vender",
+      "calificacion_hasta": "Vender",
       "tiempo": "2025-01-16T00:00:00Z"
     },
     {
@@ -183,8 +194,8 @@
       "empresa": "Uber",
       "acción": "mejorado por",
       "corredor": "Goldman Sachs",
-      "calificación_desde": "Neutral",
-      "calificación_hasta": "Comprar",
+      "calificacion_desde": "Neutral",
+      "calificacion_hasta": "Comprar",
       "tiempo": "2025-01-17T00:00:00Z"
     },
     {
@@ -194,8 +205,8 @@
       "empresa": "Microsoft",
       "acción": "reiterado por",
       "corredor": "Morgan Stanley",
-      "calificación_desde": "Comprar",
-      "calificación_hasta": "Superar",
+      "calificacion_desde": "Comprar",
+      "calificacion_hasta": "Superar",
       "tiempo": "2025-01-18T00:00:00Z"
     },
     {
@@ -205,8 +216,8 @@
       "empresa": "Microsoft",
       "acción": "iniciado por",
       "corredor": "JP Morgan",
-      "calificación_desde": "Neutral",
-      "calificación_hasta": "Superar",
+      "calificacion_desde": "Neutral",
+      "calificacion_hasta": "Superar",
       "tiempo": "2025-01-19T00:00:00Z"
     },
     {
@@ -216,8 +227,8 @@
       "empresa": "Salesforce",
       "acción": "mejorado por",
       "corredor": "Goldman Sachs",
-      "calificación_desde": "Superar",
-      "calificación_hasta": "Superar",
+      "calificacion_desde": "Superar",
+      "calificacion_hasta": "Superar",
       "tiempo": "2025-01-20T00:00:00Z"
     },
     {
@@ -227,8 +238,8 @@
       "empresa": "Adobe",
       "acción": "mejorado por",
       "corredor": "Morgan Stanley",
-      "calificación_desde": "Neutral",
-      "calificación_hasta": "Superar",
+      "calificacion_desde": "Neutral",
+      "calificacion_hasta": "Superar",
       "tiempo": "2025-01-21T00:00:00Z"
     },
     {
@@ -238,8 +249,8 @@
       "empresa": "Tesla",
       "acción": "reiterado por",
       "corredor": "Morgan Stanley",
-      "calificación_desde": "Superar",
-      "calificación_hasta": "Comprar",
+      "calificacion_desde": "Superar",
+      "calificacion_hasta": "Comprar",
       "tiempo": "2025-01-22T00:00:00Z"
     },
     {
@@ -249,8 +260,8 @@
       "empresa": "Shopify",
       "acción": "mejorado por",
       "corredor": "Wedbush",
-      "calificación_desde": "Comprar",
-      "calificación_hasta": "Vender",
+      "calificacion_desde": "Comprar",
+      "calificacion_hasta": "Vender",
       "tiempo": "2025-01-23T00:00:00Z"
     },
     {
@@ -260,8 +271,8 @@
       "empresa": "IBM",
       "acción": "degradado por",
       "corredor": "Morgan Stanley",
-      "calificación_desde": "Comprar",
-      "calificación_hasta": "Neutral",
+      "calificacion_desde": "Comprar",
+      "calificacion_hasta": "Neutral",
       "tiempo": "2025-01-24T00:00:00Z"
     },
     {
@@ -271,8 +282,8 @@
       "empresa": "Tesla",
       "acción": "reiterado por",
       "corredor": "Barclays",
-      "calificación_desde": "Superar",
-      "calificación_hasta": "Neutral",
+      "calificacion_desde": "Superar",
+      "calificacion_hasta": "Neutral",
       "tiempo": "2025-01-25T00:00:00Z"
     },
     {
@@ -282,8 +293,8 @@
       "empresa": "Salesforce",
       "acción": "reiterado por",
       "corredor": "Goldman Sachs",
-      "calificación_desde": "Vender",
-      "calificación_hasta": "Neutral",
+      "calificacion_desde": "Vender",
+      "calificacion_hasta": "Neutral",
       "tiempo": "2025-01-26T00:00:00Z"
     },
     {
@@ -293,8 +304,8 @@
       "empresa": "Nvidia",
       "acción": "iniciado por",
       "corredor": "Morgan Stanley",
-      "calificación_desde": "Comprar",
-      "calificación_hasta": "Comprar",
+      "calificacion_desde": "Comprar",
+      "calificacion_hasta": "Comprar",
       "tiempo": "2025-01-27T00:00:00Z"
     },
     {
@@ -304,8 +315,8 @@
       "empresa": "Amazon",
       "acción": "mejorado por",
       "corredor": "Morgan Stanley",
-      "calificación_desde": "Neutral",
-      "calificación_hasta": "Superar",
+      "calificacion_desde": "Neutral",
+      "calificacion_hasta": "Superar",
       "tiempo": "2025-01-28T00:00:00Z"
     },
     {
@@ -315,8 +326,8 @@
       "empresa": "Twitter",
       "acción": "mejorado por",
       "corredor": "Morgan Stanley",
-      "calificación_desde": "Comprar",
-      "calificación_hasta": "Superar",
+      "calificacion_desde": "Comprar",
+      "calificacion_hasta": "Superar",
       "tiempo": "2025-01-29T00:00:00Z"
     },
     {
@@ -326,8 +337,8 @@
       "empresa": "Nvidia",
       "acción": "reiterado por",
       "corredor": "Wedbush",
-      "calificación_desde": "Superar",
-      "calificación_hasta": "Superar",
+      "calificacion_desde": "Superar",
+      "calificacion_hasta": "Superar",
       "tiempo": "2025-01-30T00:00:00Z"
     },
     {
@@ -337,8 +348,8 @@
       "empresa": "Tesla",
       "acción": "degradado por",
       "corredor": "Morgan Stanley",
-      "calificación_desde": "Superar",
-      "calificación_hasta": "Superar",
+      "calificacion_desde": "Superar",
+      "calificacion_hasta": "Superar",
       "tiempo": "2025-01-31T00:00:00Z"
     },
     {
@@ -348,8 +359,8 @@
       "empresa": "PayPal",
       "acción": "mejorado por",
       "corredor": "Morgan Stanley",
-      "calificación_desde": "Superar",
-      "calificación_hasta": "Superar",
+      "calificacion_desde": "Superar",
+      "calificacion_hasta": "Superar",
       "tiempo": "2025-02-01T00:00:00Z"
     },
     {
@@ -359,8 +370,8 @@
       "empresa": "Microsoft",
       "acción": "reiterado por",
       "corredor": "Goldman Sachs",
-      "calificación_desde": "Neutral",
-      "calificación_hasta": "Comprar",
+      "calificacion_desde": "Neutral",
+      "calificacion_hasta": "Comprar",
       "tiempo": "2025-02-02T00:00:00Z"
     },
     {
@@ -370,8 +381,8 @@
       "empresa": "Meta Platforms",
       "acción": "degradado por",
       "corredor": "JP Morgan",
-      "calificación_desde": "Comprar",
-      "calificación_hasta": "Superar",
+      "calificacion_desde": "Comprar",
+      "calificacion_hasta": "Superar",
       "tiempo": "2025-02-03T00:00:00Z"
     },
     {
@@ -381,8 +392,8 @@
       "empresa": "Nvidia",
       "acción": "reiterado por",
       "corredor": "Wedbush",
-      "calificación_desde": "Neutral",
-      "calificación_hasta": "Comprar",
+      "calificacion_desde": "Neutral",
+      "calificacion_hasta": "Comprar",
       "tiempo": "2025-02-04T00:00:00Z"
     },
     {
@@ -392,8 +403,8 @@
       "empresa": "Uber",
       "acción": "mejorado por",
       "corredor": "JP Morgan",
-      "calificación_desde": "Vender",
-      "calificación_hasta": "Neutral",
+      "calificacion_desde": "Vender",
+      "calificacion_hasta": "Neutral",
       "tiempo": "2025-02-05T00:00:00Z"
     },
     {
@@ -403,8 +414,8 @@
       "empresa": "Microsoft",
       "acción": "mejorado por",
       "corredor": "Goldman Sachs",
-      "calificación_desde": "Superar",
-      "calificación_hasta": "Vender",
+      "calificacion_desde": "Superar",
+      "calificacion_hasta": "Vender",
       "tiempo": "2025-02-06T00:00:00Z"
     },
     {
@@ -414,8 +425,8 @@
       "empresa": "IBM",
       "acción": "degradado por",
       "corredor": "Morgan Stanley",
-      "calificación_desde": "Superar",
-      "calificación_hasta": "Superar",
+      "calificacion_desde": "Superar",
+      "calificacion_hasta": "Superar",
       "tiempo": "2025-02-07T00:00:00Z"
     },
     {
@@ -425,8 +436,8 @@
       "empresa": "Amazon",
       "acción": "reiterado por",
       "corredor": "Morgan Stanley",
-      "calificación_desde": "Vender",
-      "calificación_hasta": "Comprar",
+      "calificacion_desde": "Vender",
+      "calificacion_hasta": "Comprar",
       "tiempo": "2025-02-08T00:00:00Z"
     },
     {
@@ -436,10 +447,417 @@
       "empresa": "Google",
       "acción": "reiterado por",
       "corredor": "Morgan Stanley",
-      "calificación_desde": "Superar",
-      "calificación_hasta": "Comprar",
+      "calificacion_desde": "Superar",
+      "calificacion_hasta": "Comprar",
       "tiempo": "2025-02-09T00:00:00Z"
-    }
+    },
+     {
+    "ticker": "STK041",
+    "objetivo_desde": "$120.50",
+    "objetivo_hasta": "$135.75",
+    "empresa": "Google",
+    "acción": "actualizado por",
+    "corredor": "Goldman Sachs",
+    "calificacion_desde": "Neutral",
+    "calificacion_hasta": "Comprar",
+    "tiempo": "2025-02-09T00:00:00Z"
+  },
+  {
+    "ticker": "FIN042",
+    "objetivo_desde": "$85.20",
+    "objetivo_hasta": "$78.30",
+    "empresa": "Google",
+    "acción": "degradado por",
+    "corredor": "Morgan Stanley",
+    "calificacion_desde": "Comprar",
+    "calificacion_hasta": "Vender",
+    "tiempo": "2025-02-10T00:00:00Z"
+  },
+  {
+    "ticker": "BIO043",
+    "objetivo_desde": "$45.60",
+    "objetivo_hasta": "$52.80",
+    "empresa": "Google",
+    "acción": "iniciado por",
+    "corredor": "JP Morgan",
+    "calificacion_desde": "Neutral",
+    "calificacion_hasta": "Comprar",
+    "tiempo": "2025-02-11T00:00:00Z"
+  },
+  {
+    "ticker": "NRG044",
+    "objetivo_desde": "$32.15",
+    "objetivo_hasta": "$28.90",
+    "empresa": "Google",
+    "acción": "revisado por",
+    "corredor": "Bank of America",
+    "calificacion_desde": "Neutral",
+    "calificacion_hasta": "Vender",
+    "tiempo": "2025-02-12T00:00:00Z"
+  },
+  {
+    "ticker": "RET045",
+    "objetivo_desde": "$68.40",
+    "objetivo_hasta": "$75.25",
+    "empresa": "IBM",
+    "acción": "actualizado por",
+    "corredor": "Barclays",
+    "calificacion_desde": "Vender",
+    "calificacion_hasta": "Neutral",
+    "tiempo": "2025-02-13T00:00:00Z"
+  },
+  {
+    "ticker": "AUT046",
+    "objetivo_desde": "$210.75",
+    "objetivo_hasta": "$225.50",
+    "empresa": "IBM",
+    "acción": "iniciado por",
+    "corredor": "Citigroup",
+    "calificacion_desde": "Neutral",
+    "calificacion_hasta": "Comprar",
+    "tiempo": "2025-02-14T00:00:00Z"
+  },
+  {
+    "ticker": "TEL047",
+    "objetivo_desde": "$155.30",
+    "objetivo_hasta": "$142.20",
+    "empresa": "IBM",
+    "acción": "degradado por",
+    "corredor": "Deutsche Bank",
+    "calificacion_desde": "Comprar",
+    "calificacion_hasta": "Vender",
+    "tiempo": "2025-02-15T00:00:00Z"
+  },
+  {
+    "ticker": "HLT048",
+    "objetivo_desde": "$92.60",
+    "objetivo_hasta": "$105.40",
+    "empresa": "Amazon",
+    "acción": "revisado por",
+    "corredor": "UBS",
+    "calificacion_desde": "Vender",
+    "calificacion_hasta": "Neutral",
+    "tiempo": "2025-02-16T00:00:00Z"
+  },
+  {
+    "ticker": "MIN049",
+    "objetivo_desde": "$18.75",
+    "objetivo_hasta": "$22.90",
+    "empresa": "Amazon",
+    "acción": "actualizado por",
+    "corredor": "Credit Suisse",
+    "calificacion_desde": "Neutral",
+    "calificacion_hasta": "Comprar",
+    "tiempo": "2025-02-17T00:00:00Z"
+  },
+  {
+    "ticker": "FAR050",
+    "objetivo_desde": "$42.30",
+    "objetivo_hasta": "$38.15",
+    "empresa": "Amazon",
+    "acción": "degradado por",
+    "corredor": "Wells Fargo",
+    "calificacion_desde": "Comprar",
+    "calificacion_hasta": "Vender",
+    "tiempo": "2025-02-18T00:00:00Z"
+  },
+  {
+    "ticker": "AER051",
+    "objetivo_desde": "$75.80",
+    "objetivo_hasta": "$82.50",
+    "empresa": "Adobe",
+    "acción": "iniciado por",
+    "corredor": "Goldman Sachs",
+    "calificacion_desde": "Neutral",
+    "calificacion_hasta": "Comprar",
+    "tiempo": "2025-02-19T00:00:00Z"
+  },
+  {
+    "ticker": "INS052",
+    "objetivo_desde": "$210.40",
+    "objetivo_hasta": "$195.75",
+    "empresa": "Adobe",
+    "acción": "revisado por",
+    "corredor": "Morgan Stanley",
+    "calificacion_desde": "Comprar",
+    "calificacion_hasta": "Vender",
+    "tiempo": "2025-02-20T00:00:00Z"
+  },
+  {
+    "ticker": "EDU053",
+    "objetivo_desde": "$65.20",
+    "objetivo_hasta": "$72.80",
+    "empresa": "Adobe",
+    "acción": "actualizado por",
+    "corredor": "JP Morgan",
+    "calificacion_desde": "Vender",
+    "calificacion_hasta": "Neutral",
+    "tiempo": "2025-02-21T00:00:00Z"
+  },
+  {
+    "ticker": "MED054",
+    "objetivo_desde": "$145.90",
+    "objetivo_hasta": "$160.25",
+    "empresa": "Google",
+    "acción": "iniciado por",
+    "corredor": "Bank of America",
+    "calificacion_desde": "Neutral",
+    "calificacion_hasta": "Comprar",
+    "tiempo": "2025-02-22T00:00:00Z"
+  },
+  {
+    "ticker": "OIL055",
+    "objetivo_desde": "$58.30",
+    "objetivo_hasta": "$52.10",
+    "empresa": "Google",
+    "acción": "degradado por",
+    "corredor": "Barclays",
+    "calificacion_desde": "Comprar",
+    "calificacion_hasta": "Vender",
+    "tiempo": "2025-02-23T00:00:00Z"
+  },
+  {
+    "ticker": "CHM056",
+    "objetivo_desde": "$32.75",
+    "objetivo_hasta": "$38.40",
+    "empresa": "Google",
+    "acción": "revisado por",
+    "corredor": "Citigroup",
+    "calificacion_desde": "Vender",
+    "calificacion_hasta": "Neutral",
+    "tiempo": "2025-02-24T00:00:00Z"
+  },
+  {
+    "ticker": "CON057",
+    "objetivo_desde": "$88.90",
+    "objetivo_hasta": "$95.60",
+    "empresa": "Google",
+    "acción": "actualizado por",
+    "corredor": "Deutsche Bank",
+    "calificacion_desde": "Neutral",
+    "calificacion_hasta": "Comprar",
+    "tiempo": "2025-02-25T00:00:00Z"
+  },
+  {
+    "ticker": "ENT058",
+    "objetivo_desde": "$125.40",
+    "objetivo_hasta": "$115.20",
+    "empresa": "IBM",
+    "acción": "degradado por",
+    "corredor": "UBS",
+    "calificacion_desde": "Comprar",
+    "calificacion_hasta": "Vender",
+    "tiempo": "2025-02-26T00:00:00Z"
+  },
+  {
+    "ticker": "TEC059",
+    "objetivo_desde": "$310.80",
+    "objetivo_hasta": "$335.00",
+    "empresa": "IBM",
+    "acción": "iniciado por",
+    "corredor": "Credit Suisse",
+    "calificacion_desde": "Neutral",
+    "calificacion_hasta": "Comprar",
+    "tiempo": "2025-02-27T00:00:00Z"
+  },
+  {
+    "ticker": "FIN060",
+    "objetivo_desde": "$42.60",
+    "objetivo_hasta": "$38.90",
+    "empresa": "IBM",
+    "acción": "revisado por",
+    "corredor": "Wells Fargo",
+    "calificacion_desde": "Comprar",
+    "calificacion_hasta": "Vender",
+    "tiempo": "2025-02-28T00:00:00Z"
+  },
+  {
+    "ticker": "RET061",
+    "objetivo_desde": "$75.20",
+    "objetivo_hasta": "$82.80",
+    "empresa": "IBM",
+    "acción": "actualizado por",
+    "corredor": "Goldman Sachs",
+    "calificacion_desde": "Vender",
+    "calificacion_hasta": "Neutral",
+    "tiempo": "2025-03-01T00:00:00Z"
+  },
+  {
+    "ticker": "AUT062",
+    "objetivo_desde": "$185.30",
+    "objetivo_hasta": "$200.50",
+    "empresa": "IBM",
+    "acción": "iniciado por",
+    "corredor": "Morgan Stanley",
+    "calificacion_desde": "Neutral",
+    "calificacion_hasta": "Comprar",
+    "tiempo": "2025-03-02T00:00:00Z"
+  },
+  {
+    "ticker": "TEL063",
+    "objetivo_desde": "$135.70",
+    "objetivo_hasta": "$125.40",
+    "empresa": "IBM",
+    "acción": "degradado por",
+    "corredor": "JP Morgan",
+    "calificacion_desde": "Comprar",
+    "calificacion_hasta": "Vender",
+    "tiempo": "2025-03-03T00:00:00Z"
+  },
+  {
+    "ticker": "HLT064",
+    "objetivo_desde": "$92.40",
+    "objetivo_hasta": "$105.80",
+    "empresa": "IBM",
+    "acción": "revisado por",
+    "corredor": "Bank of America",
+    "calificacion_desde": "Vender",
+    "calificacion_hasta": "Neutral",
+    "tiempo": "2025-03-04T00:00:00Z"
+  },
+  {
+    "ticker": "MIN065",
+    "objetivo_desde": "$22.10",
+    "objetivo_hasta": "$26.50",
+    "empresa": "IBM",
+    "acción": "actualizado por",
+    "corredor": "Barclays",
+    "calificacion_desde": "Neutral",
+    "calificacion_hasta": "Comprar",
+    "tiempo": "2025-03-05T00:00:00Z"
+  },
+  {
+    "ticker": "FAR066",
+    "objetivo_desde": "$38.90",
+    "objetivo_hasta": "$35.20",
+    "empresa": "IBM",
+    "acción": "degradado por",
+    "corredor": "Citigroup",
+    "calificacion_desde": "Comprar",
+    "calificacion_hasta": "Vender",
+    "tiempo": "2025-03-06T00:00:00Z"
+  },
+  {
+    "ticker": "AER067",
+    "objetivo_desde": "$68.50",
+    "objetivo_hasta": "$75.30",
+    "empresa": "IBM",
+    "acción": "iniciado por",
+    "corredor": "Deutsche Bank",
+    "calificacion_desde": "Neutral",
+    "calificacion_hasta": "Comprar",
+    "tiempo": "2025-03-07T00:00:00Z"
+  },
+  {
+    "ticker": "INS068",
+    "objetivo_desde": "$195.20",
+    "objetivo_hasta": "$180.40",
+    "empresa": "IBM",
+    "acción": "revisado por",
+    "corredor": "UBS",
+    "calificacion_desde": "Comprar",
+    "calificacion_hasta": "Vender",
+    "tiempo": "2025-03-08T00:00:00Z"
+  },
+  {
+    "ticker": "EDU069",
+    "objetivo_desde": "$58.70",
+    "objetivo_hasta": "$65.80",
+    "empresa": "IBM",
+    "acción": "actualizado por",
+    "corredor": "Credit Suisse",
+    "calificacion_desde": "Vender",
+    "calificacion_hasta": "Neutral",
+    "tiempo": "2025-03-09T00:00:00Z"
+  },
+  {
+    "ticker": "MED070",
+    "objetivo_desde": "$132.40",
+    "objetivo_hasta": "$145.00",
+    "empresa": "IBM",
+    "acción": "iniciado por",
+    "corredor": "Wells Fargo",
+    "calificacion_desde": "Neutral",
+    "calificacion_hasta": "Comprar",
+    "tiempo": "2025-03-10T00:00:00Z"
+  },
+  {
+    "ticker": "OIL071",
+    "objetivo_desde": "$52.80",
+    "objetivo_hasta": "$48.30",
+    "empresa": "IBM",
+    "acción": "degradado por",
+    "corredor": "Goldman Sachs",
+    "calificacion_desde": "Comprar",
+    "calificacion_hasta": "Vender",
+    "tiempo": "2025-03-11T00:00:00Z"
+  },
+  {
+    "ticker": "CHM072",
+    "objetivo_desde": "$28.40",
+    "objetivo_hasta": "$33.90",
+    "empresa": "IBM",
+    "acción": "revisado por",
+    "corredor": "Morgan Stanley",
+    "calificacion_desde": "Vender",
+    "calificacion_hasta": "Neutral",
+    "tiempo": "2025-03-12T00:00:00Z"
+  },
+  {
+    "ticker": "CON073",
+    "objetivo_desde": "$82.60",
+    "objetivo_hasta": "$90.20",
+    "empresa": "tesla",
+    "acción": "actualizado por",
+    "corredor": "JP Morgan",
+    "calificacion_desde": "Neutral",
+    "calificacion_hasta": "Comprar",
+    "tiempo": "2025-03-13T00:00:00Z"
+  },
+  {
+    "ticker": "ENT074",
+    "objetivo_desde": "$118.30",
+    "objetivo_hasta": "$108.90",
+    "empresa": "tesla",
+    "acción": "degradado por",
+    "corredor": "Bank of America",
+    "calificacion_desde": "Comprar",
+    "calificacion_hasta": "Vender",
+    "tiempo": "2025-03-14T00:00:00Z"
+  },
+  {
+    "ticker": "TEC075",
+    "objetivo_desde": "$295.40",
+    "objetivo_hasta": "$320.00",
+    "empresa": "tesla",
+    "acción": "iniciado por",
+    "corredor": "Barclays",
+    "calificacion_desde": "Neutral",
+    "calificacion_hasta": "Comprar",
+    "tiempo": "2025-03-15T00:00:00Z"
+  },
+  {
+    "ticker": "FIN076",
+    "objetivo_desde": "$45.20",
+    "objetivo_hasta": "$41.80",
+    "empresa": "tesla",
+    "acción": "revisado por",
+    "corredor": "Citigroup",
+    "calificacion_desde": "Comprar",
+    "calificacion_hasta": "Vender",
+    "tiempo": "2025-03-16T00:00:00Z"
+  },
+  {
+    "ticker": "RET077",
+    "objetivo_desde": "$70.80",
+    "objetivo_hasta": "$78.50",
+    "empresa": "tesla",
+    "acción": "actualizado por",
+    "corredor": "Deutsche Bank",
+    "calificacion_desde": "Vender",
+    "calificacion_hasta": "Neutral",
+    "tiempo": "2025-03-17T00:00:00Z"
+  }
   ],
   "página_siguiente": ""
 }

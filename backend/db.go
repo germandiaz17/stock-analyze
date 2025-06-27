@@ -15,7 +15,7 @@ func InitDB() {
 	var err error
 	DB, err = pgx.Connect(context.Background(), connStr)
 	if err != nil {
-		panic(fmt.Sprintf("❌ Error conectando a la base de datos: %v", err))
+		panic(fmt.Sprintf("Error conectando a la base de datos: %v", err))
 	}
-	fmt.Println("✅ Conectado a CockroachDB")
+	fmt.Println("Conectado a CockroachDB")
 }
